@@ -7,7 +7,7 @@
 body {
     font-family: 'helvetica', 'sans-serif';
     margin: 0;
-    background: linear-gradient(to right bottom, #6162d6, #7a7aea);
+    /* background: linear-gradient(to right bottom, #6162d6, #7a7aea); */
 }
 
 
@@ -80,6 +80,58 @@ header .flex {
     color: #d6dee7;
     font-weight: 600;
     margin-left: 0;
+}
+
+header .bg-1 {
+    z-index: -2;
+    width: 0;
+    height: 0;
+    top: -2px;
+    left: -300px;
+    position: absolute;
+    border-left: 800px solid transparent;
+    border-right: 2900px solid transparent;
+    border-top: 700px solid #6162d6;
+    transform: skew(-40deg);
+}
+
+header .bg-2 {
+    z-index: -1;
+    width: 0;
+    height: 0;
+    top: -2px;
+    left: -220px;
+    position: absolute;
+    border-left: 800px solid transparent;
+    border-right: 1000px solid transparent;
+    border-top: 600px solid #7a7aea;
+    transform: skew(-40deg);
+}
+
+header .bg-3 {
+    z-index: -3;
+    width: 0;
+    height: 0;
+    top: -2px;
+    left: -300px;
+    position: absolute;
+    border-left: 700px solid transparent;
+    border-right: 1900px solid transparent;
+    border-top: 700px solid #b9bae8;
+    transform: skew(-40deg);
+}
+
+header .bg-4 {
+    z-index: -3;
+    width: 0;
+    height: 0;
+    top: -2px;
+    left: -200px;
+    position: absolute;
+    border-left: 900px solid transparent;
+    border-right: 1400px solid transparent;
+    border-top: 750px solid #d8d8f4;
+    transform: skew(-40deg);
 }
 
 
